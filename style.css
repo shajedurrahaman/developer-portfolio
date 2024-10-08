@@ -89,3 +89,46 @@ nav li a {
   border: 1px solid rgb(253, 110, 10);
   margin-left: 30px;
 }
+
+/* about me style */
+.about-me-background {
+  background-color: rgb(255, 248, 243);
+  margin: 120px 180px;
+  padding: 60px 80px;
+}
+
+.about-me-section {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  padding: 5px;
+}
+
+.about-me-title {
+  text-align: center;
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.about-me-description {
+  text-align: center;
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+}
+.about-me-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me-info p{
+  color: rgb(117, 117, 117);
+  text-align: center;
+}
+
+.about-me-info h3 {
+  color: rgb(71, 71, 71);
+  font-weight: 700;
+  font-size: 20px;
+}
