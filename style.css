@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.color-primary {
+  color: rgb(253, 110, 10);
+}
+
+.dark-02 {
+  color: rgb(71, 71, 71);
+}
+
+.button-primary {
+  background-color: rgb(253, 110, 10);
+  font-weight: bold;
+  color: white;
+  padding: 18px 35px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 180px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.header {
+  background-image: url('images/developer.png'), url('images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* Banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 25px 0 180px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  color: rgb(24, 24, 24);
+}
+
+.banner-description {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+}
+
+#btn-contact {
+  background-color: white;
+  color: rgb(253, 110, 10);
+  border: 1px solid rgb(253, 110, 10);
+  margin-left: 30px;
+}
